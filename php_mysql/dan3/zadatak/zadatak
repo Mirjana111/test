@@ -1,0 +1,5 @@
+SUSTAV ZA REGISTRACIJU KORISNIKA
+
+1. Napraviti skriptu koja će dohvatiti korisničke podatke (email, lozinka, ponovljena lozinka i csrf token)
+2. Napraviti sustav za validaciju podataka (da li email već postoji u bazi, da li lozinka odgovara ponovljenoj lozinki te da li su sva polja popunjena).
+3. Nakon ispravne validacije pospremiti korisničke podatke u bazu.

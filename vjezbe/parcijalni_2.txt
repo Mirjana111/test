@@ -1,0 +1,52 @@
+CREATE DATABASE videoteka DEFAULT CHARECTER SET utf8 COLLATE utf8_general_ci;
+use videoteka;
+CREATE TABLE IF NOT EXISTS prijatelji(
+		id INT UNSIGNED AUTO_INCREMENT NOT NULL,
+		ime VARCHAR (128) NOT NULL,
+		id_cd INT UNSIGNED NOT NULL,
+		br_tel VARCHAR (255) NULL,
+		PRIMARY KEY (id),
+		INDEX(id_cd)
+		) ENGINE=InnoDB;
+		
+		
+		 
+		
+		CREATE TABLE posudba(
+
+	posudba_id INT UNSIGNEDNOT NULL,
+	prijatelj_id INT NOT NULL,
+	id_cd int NOT NULL,
+	datum_posudbe smalldatetime NOT NULL,
+	datum_vracanja smalldatetime NULL,
+
+
+
+25
+ CONSTRAINT [PK_izdavanja] PRIMARY KEY CLUSTERED 
+ 
+ CREATE TABLE [dbo].[kasete](
+
+44
+	[kasetaID] [int] NOT NULL,
+
+45
+	[Naziv] [nvarchar](50) NOT NULL,
+
+46
+	[Glumci] [nvarchar](50) NOT NULL,
+
+47
+	[Rezicer] [nvarchar](50) NOT NULL,
+
+48
+	[Trajanje] [time](7) NOT NULL,
+
+49
+ CONSTRAINT [PK_kasete] PRIMARY KEY CLUSTERED 
+
+50
+(
+
+51
+	[kasetaID] ASC

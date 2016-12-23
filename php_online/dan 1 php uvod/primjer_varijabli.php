@@ -1,0 +1,1 @@
+<?php$a = 'Algebra';echo $a;$a ='Algebra PHP';echo '<br>';echo $a;echo '<br>';echo $a. '- Uvod u OOP';echo '<br>';echo $a. '<br> Novi parametar';echo '<br>';echo $a. '<br>'.'\nNovi parametar2';echo '<br>';var_dump($a);echo '<br>';$b = 10;echo $b;var_dump ($b);$c = false;echo '<br>'.$c;?>

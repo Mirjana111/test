@@ -11,10 +11,10 @@ if(isset($_POST['posalji'])){
 		else{
 			if($error !=UPLOAD_ERR_OK){
 		
-		echo'Došlo je do pogreške prilikom prijenosa datoteke!';
+		echo'Došlo je do pogreške prilikom uploada<br>';
 		
-		//if($size ==0){
-			//echo 'Datoteka ima o bajta!';
+		if($size ==0){
+			echo 'Datoteka ima o bajta!';
 		}
 	}
 }

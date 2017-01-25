@@ -67,9 +67,7 @@
 						if(!isset($_SESSION['user_id'])){
 					?>
 							<li><a type="button" class="btn" data-toggle="modal" data-target="#loginModal">Prijavi se</a></li>
-							<li><a type="button" class="btn" data-toggle="modal" data-target="#loginModal">Lokacije</a></li>
-							<li><a type="button" class="btn" data-toggle="modal" data-target="#loginModal">Kave</a></li>
-							<li><a type="button" class="btn" data-toggle="modal" data-target="#regModal">Registriraj se</a></li>
+							<li><a type="button" class="btn" data-toggle="modal" data-target="#regModal">Registriraj se se</a></li>
 					<?php
 						}
 						else{

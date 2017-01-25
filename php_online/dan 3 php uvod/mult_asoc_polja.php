@@ -64,7 +64,6 @@ echo'<h3>'.$value['godina'].'</h3>';
 echo'</td>';
 echo'</tr>';
 
-
 	}
 }
 //echo'<table>';

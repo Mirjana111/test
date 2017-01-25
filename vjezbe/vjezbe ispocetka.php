@@ -67,5 +67,20 @@ if ($a == $b)
 	echo '$a je veći od $b';
 	}
 */
+//$naziv = "Algebra";
+//$br_znakova = strlen($naziv);
+//echo "Naziv: ". $naziv." ima ". $br_znakova." znakova";
+//echo "Naziv: Algebra ima ". strlen("algebra")." znakova.";
+$a = 4;
+$b = 6;
+if ($a > $b);
+//{
+//echo 'A je veće od B';
+//}
 
+if ($a <= $b)
+{	
+echo 'A je manje ili jednako B';	
+}		
+	
 ?>
